@@ -1,0 +1,56 @@
+@font-face {
+    src: url(src/Inconsolata-Regular.ttf);
+    font-family: "Inconsolata";
+}
+
+@font-face {
+    src: url(src/Inconsolata-Bold.ttf);
+    font-family: "Inconsolata-Bold";
+}
+
+body {
+    background: #1A1710;
+    color: #1FE17D;
+    font-family: "Inconsolata-bold";
+    font-size: 3vh;
+    margin-left: 15vw;
+    margin-top: 10vh;
+}
+
+div {
+    height: 3vh;
+    width: 25vw;
+    background: white;
+    margin-top: 3vh;
+    font-size: 2.5vh;
+    padding: 0.5vh 2vw;
+    cursor: pointer;
+    display: flex;
+
+}
+
+#generate-button {
+    padding: 0.5vh 3vw;
+    font-size: 4vh;
+    font-family: "Inconsolata-bold";
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+#password-length {
+    margin-top: 5vh;
+}
+
+#numbers, #symbols {
+    margin-top: 4vw;
+}
+
+.copy {
+    font-size: 2vh;
+}
+
+
